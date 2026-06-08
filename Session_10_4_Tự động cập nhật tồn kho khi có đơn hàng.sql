@@ -54,15 +54,3 @@ WHERE pro_id = 2;
 
 
 
-
-
-Khi có đơn hàng mới, trừ số lượng tồn kho tương ứng
-Khi đơn hàng bị chỉnh sửa, cập nhật tồn kho tương ứng với sự thay đổi số lượng
-Khi đơn hàng bị xóa, trả lại số lượng vào tồn kho
-
-
-Yêu cầu:
-
-Sinh viên viết Function Trigger bằng PL/pgSQL để tự động cập nhật tồn kho
-Tạo Trigger gắn với bảng orders
-Thực hành insert/update/delete đơn hàng và kiểm tra tồn kho products
